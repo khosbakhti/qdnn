@@ -1,0 +1,137 @@
+The target system is: Generic -  - 
+The host system is: Linux - 5.15.0-117-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/arm-none-eabi-gcc 
+Build flags: -mcpu=cortex-m33;-mthumb;-mfpu=fpv5-sp-d16;-mfloat-abi=hard;;-O1;-Wall;-Wno-char-subscripts;-Wno-unused-function;-Wno-unused-variable;-Wno-unused-but-set-variable;-Wno-format;-nostdlib;-fdata-sections;-ffunction-sections;;
+Id flags:  
+
+The output was:
+0
+/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 13.3.1 20240614
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b1e5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b1e5.dir/build.make CMakeFiles/cmTC_3b1e5.dir/build
+gmake[1]: Entering directory '/home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj
+/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/arm-none-eabi-gcc --sysroot=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler   -mcpu=cortex-m33 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=hard  -O1 -Wall -Wno-char-subscripts -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -Wno-format -nostdlib -fdata-sections -ffunction-sections      -v -o CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+COLLECT_GCC_OPTIONS='--sysroot=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler' '-mcpu=cortex-m33' '-mthumb' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-O1' '-Wall' '-Wno-char-subscripts' '-Wno-unused-function' '-Wno-unused-variable' '-Wno-unused-but-set-variable' '-Wformat=0' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_3b1e5.dir/'
+ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/hard -iprefix /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3b1e5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -O1 -Wall -Wno-char-subscripts -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -Wformat=0 -version -fdata-sections -ffunction-sections -o /tmp/cczCDVEh.s
+GNU C17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+ignoring nonexistent directory "/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/usr/local/include"
+ignoring duplicate directory "/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+ignoring duplicate directory "/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/include
+End of search list.
+Compiler executable checksum: 9c2ae77c272b305506938e8b4c3643b8
+COLLECT_GCC_OPTIONS='--sysroot=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler' '-mcpu=cortex-m33' '-mthumb' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-O1' '-Wall' '-Wno-char-subscripts' '-Wno-unused-function' '-Wno-unused-variable' '-Wno-unused-but-set-variable' '-Wformat=0' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_3b1e5.dir/'
+ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=hard -mfpu=fpv5-sp-d16 -meabi=5 -o CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj /tmp/cczCDVEh.s
+GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
+COMPILER_PATH=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../libexec/gcc/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v8-m.main+fp/hard/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler' '-mcpu=cortex-m33' '-mthumb' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-O1' '-Wall' '-Wno-char-subscripts' '-Wno-unused-function' '-Wno-unused-variable' '-Wno-unused-but-set-variable' '-Wformat=0' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.'
+Linking C static library libcmTC_3b1e5.a
+/usr/bin/cmake -P CMakeFiles/cmTC_3b1e5.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b1e5.dir/link.txt --verbose=1
+/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/arm-none-eabi-ar qc libcmTC_3b1e5.a CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj
+/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/arm-none-eabi-ranlib libcmTC_3b1e5.a
+gmake[1]: Leaving directory '/home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+    add: [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+    add: [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+    add: [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/include]
+  end of search list found
+  collapse include dir [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/include] ==> [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/lib/gcc/arm-none-eabi/13.3.1/include]
+  collapse include dir [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed] ==> [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+  collapse include dir [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include] ==> [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/arm-none-eabi/include]
+  collapse include dir [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/include] ==> [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/include]
+  implicit include dirs: [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/lib/gcc/arm-none-eabi/13.3.1/include;/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/lib/gcc/arm-none-eabi/13.3.1/include-fixed;/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/arm-none-eabi/include;/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b1e5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b1e5.dir/build.make CMakeFiles/cmTC_3b1e5.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/arm-none-eabi-gcc --sysroot=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler   -mcpu=cortex-m33 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=hard  -O1 -Wall -Wno-char-subscripts -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -Wno-format -nostdlib -fdata-sections -ffunction-sections      -v -o CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/arm-none-eabi-gcc]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler' '-mcpu=cortex-m33' '-mthumb' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-O1' '-Wall' '-Wno-char-subscripts' '-Wno-unused-function' '-Wno-unused-variable' '-Wno-unused-but-set-variable' '-Wformat=0' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_3b1e5.dir/']
+  ignore line: [ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/hard -iprefix /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3b1e5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -O1 -Wall -Wno-char-subscripts -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -Wformat=0 -version -fdata-sections -ffunction-sections -o /tmp/cczCDVEh.s]
+  ignore line: [GNU C17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+  ignore line: [ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+  ignore line: [ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+  ignore line: [ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: 9c2ae77c272b305506938e8b4c3643b8]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler' '-mcpu=cortex-m33' '-mthumb' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-O1' '-Wall' '-Wno-char-subscripts' '-Wno-unused-function' '-Wno-unused-variable' '-Wno-unused-but-set-variable' '-Wformat=0' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_3b1e5.dir/']
+  ignore line: [ /home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=hard -mfpu=fpv5-sp-d16 -meabi=5 -o CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj /tmp/cczCDVEh.s]
+  ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614]
+  ignore line: [COMPILER_PATH=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../libexec/gcc/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v8-m.main+fp/hard/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler' '-mcpu=cortex-m33' '-mthumb' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-O1' '-Wall' '-Wno-char-subscripts' '-Wno-unused-function' '-Wno-unused-variable' '-Wno-unused-but-set-variable' '-Wformat=0' '-nostdlib' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C static library libcmTC_3b1e5.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_3b1e5.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b1e5.dir/link.txt --verbose=1]
+  ignore line: [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/arm-none-eabi-ar qc libcmTC_3b1e5.a CMakeFiles/cmTC_3b1e5.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/khan/Desktop/intermittent/imc_kernel_example_m33/arm_compiler/bin/arm-none-eabi-ranlib libcmTC_3b1e5.a]
+  ignore line: [gmake[1]: Leaving directory '/home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

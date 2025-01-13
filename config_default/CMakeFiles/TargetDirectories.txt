@@ -1,0 +1,4 @@
+/home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/imc_example.dir
+/home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/imc_apps.dir
+/home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/edit_cache.dir
+/home/khan/Desktop/intermittent/imc_kernel_example_m33/config_default/CMakeFiles/rebuild_cache.dir

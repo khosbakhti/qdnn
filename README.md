@@ -1,5 +1,13 @@
 # imcFreeRTOS Demo
 
+## Overview
+
+- 이 레포지토리의 핵심 기능은 메모리 제약이 있는 임베디드 시스템을 위해 설계된 양자화된 DNN 라이브러리인 Dacapo/dacapo 코드베이스에 있음
+- 양자화(Quantization) 과정은 가중치와 활성화 값을 낮은 정밀도로 변환하여 메모리 사용량을 줄이고 연산 요구사항을 최적화함으로써, 제한된 자원을 가진 장치에서도 신경망 모델을 실행할 수 있도록 함
+- 그러나, 많은 임베디드 애플리케이션은 메모리뿐만 아니라 에너지 소비에도 제약이 있으며, 단순히 메모리를 최적화하는 것만으로는 충분하지 않음
+- 이를 해결하기 위해, 우리는 라이브러리와 예제 코드들을 확장하여 양자화가 에너지 소비 관리에 어떻게 도움이 되는지를 보여줌
+- 이후 내용에는 Dacapo/dacapo 코드베이스를 사용하여 데모를 위한 빌드 과정, 체크포인트 하는 방법, 기타/참고사항 들을 보여줌
+
 ## Build
 
 ### 구성
@@ -91,3 +99,6 @@ imc_example: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically 
 ## 기타/참고사항
 - 현재 `imcOsThreadNew()` 로 동시에 생성할 수 있는 태스크는 5개로 제한되어 있으며, 각 태스크의 최대 스택 크기는 4096 bytes 로 제한되어 있음
 - 저장된 체크포인트를 초기화하기 위해서 NVM 을 초기화할 경우, `scripts/program_binary.sh` 사용 가능
+
+## Acknowledgement
+- Institute of Information and Communications Technology Planning and Evaluation Grant through the Ministry of Science and ICT of Korea, Development of Core Technology for Autonomous Energy-driven Computing System SW in Power-Instable Environment, under Grant 2021-0-00360
